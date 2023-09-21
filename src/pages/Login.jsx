@@ -30,7 +30,6 @@ const Login = () => {
             });
             navigate("/gallery");
         } catch(error) {
-            console.log(error);
             setLoading(false);
             if (error.code === 'auth/invalid-login-credentials') {
                 toast.error('Incorrect credentials. Please check and try again!', {
