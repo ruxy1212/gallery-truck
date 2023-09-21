@@ -2,7 +2,7 @@
 
 ## PURE DnD Gallery
 
-A responsive Drag and Drop Gallery application, with search functionality built with ReactJS. Users will have to sign in to view the gallery page using the credentials: Email: `ruxylessur@gmail.com` and Password: `Pass!World`.
+A responsive Drag and Drop Gallery application, with search functionality built with ReactJS. Users will have to sign in to view the gallery page using the credentials: Email: `user@example.com` and Password: `1Password`.
 
 ## TASK
 
@@ -55,8 +55,8 @@ While adhering to the above requirements, you have the creative freedom to come 
 
 Users will require authentication to view the gallery page. This was implemented using Firebase.
 The credentials to log in:
-- Email: `ruxylessur@gmail.com`
-- Password: `Pass!World`
+- Email: `user@example.com`
+- Password: `1Password`
 
 ### Error Handling and Notification
 
@@ -78,6 +78,7 @@ The credentials to log in:
     > npm run dev
 
 - The application can be accessed by the browser on `http:127.0.0.1:5713`
+    > NB: The sign up form can be accessed via the route `/admin-sign-up`.
 
 > Enjoy!
 
